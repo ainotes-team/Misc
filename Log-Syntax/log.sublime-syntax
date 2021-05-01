@@ -1,0 +1,18 @@
+%YAML 1.2
+---
+name: AINotes Log
+scope: source.c
+contexts:
+  main:
+    - match: .+TODO.+\n
+      scope: entity.name.type
+    - match: .+\[WARNING.+\n
+      scope: string.c
+    - match: .+\[TIMING.+\n
+      scope: comment.c
+    - match: .+\[ERROR.+\n
+      scope: keyword.control.c
+
+# green: entity.name.type
+# pink-red: keyword.control.c
+# lila: constant.character.escape.c

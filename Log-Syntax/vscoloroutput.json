@@ -1,0 +1,103 @@
+{
+  "EnableStopOnBuildError": false,
+  "ShowElapsedBuildTime": false,
+  "ShowBuildReport": false,
+  "ShowDebugWindowOnDebug": false,
+  "HighlightFindResults": false,
+  "ShowTimeStamps": false,
+  "SuppressDonation": true,
+  "Patterns": [
+    {
+      "ClassificationType": 3,
+      "IgnoreCase": false,
+      "RegExPattern": ".*\\[WARNING"
+    },
+    {
+      "ClassificationType": 2,
+      "IgnoreCase": false,
+      "RegExPattern": ".*\\[ERROR"
+    },
+    {
+      "ClassificationType": 5,
+      "IgnoreCase": false,
+      "RegExPattern": ".*TODO"
+    },
+    {
+      "ClassificationType": 6,
+      "IgnoreCase": false,
+      "RegExPattern": ".*\\[TIMING"
+    }
+  ],
+  "BuildMessageColor": {
+    "knownColor": 164,
+    "name": null,
+    "state": 1,
+    "value": 0
+  },
+  "BuildTextColor": {
+    "knownColor": 164,
+    "name": null,
+    "state": 1,
+    "value": 0
+  },
+  "ErrorTextColor": {
+    "knownColor": 0,
+    "name": null,
+    "state": 2,
+    "value": 4293295219
+  },
+  "WarningTextColor": {
+    "knownColor": 0,
+    "name": null,
+    "state": 2,
+    "value": 4294956646
+  },
+  "InformationTextColor": {
+    "knownColor": 164,
+    "name": null,
+    "state": 1,
+    "value": 0
+  },
+  "CustomTextColor1": {
+    "knownColor": 0,
+    "name": null,
+    "state": 2,
+    "value": 4289249315
+  },
+  "CustomTextColor2": {
+    "knownColor": 78,
+    "name": null,
+    "state": 1,
+    "value": 0
+  },
+  "CustomTextColor3": {
+    "knownColor": 164,
+    "name": null,
+    "state": 1,
+    "value": 0
+  },
+  "CustomTextColor4": {
+    "knownColor": 164,
+    "name": null,
+    "state": 1,
+    "value": 0
+  },
+  "FindSearchTermColor": {
+    "knownColor": 164,
+    "name": null,
+    "state": 1,
+    "value": 0
+  },
+  "FindFileNameColor": {
+    "knownColor": 164,
+    "name": null,
+    "state": 1,
+    "value": 0
+  },
+  "TimeStampColor": {
+    "knownColor": 164,
+    "name": null,
+    "state": 1,
+    "value": 0
+  }
+}

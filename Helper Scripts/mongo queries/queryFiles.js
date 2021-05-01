@@ -1,0 +1,1 @@
+db.getCollection('File').find({}, {strokeContent: 0})
